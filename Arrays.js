@@ -515,7 +515,7 @@ array.some()
 */
 const array30 = [15, 18, 19]
 
-const array31 = array30.some(elem => elem > 13)
+const array31 = array30.some(elem => elem >= 13)
 
 console.log(array31)
 
